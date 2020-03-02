@@ -1,106 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<title>AirBnB Clone</title>
-	<link rel="stylesheet" href="styles/4-common.css">
-	<link rel="stylesheet" href="styles/3-header.css">
-	<link rel="stylesheet" href="styles/3-footer.css">
+    <head>
+        <title>AirBnB Clone</title>
+        <link rel="stylesheet" href="styles/4-common.css">
+        <link rel="stylesheet" href="styles/3-header.css">
+        <link rel="stylesheet" href="styles/3-footer.css">
 	<link rel="stylesheet" href="styles/6-filters.css">
-	<link rel="stylesheet" href="styles/8-places.css">
+	<link rel="stylesheet" href="styles/7-places.css">
+        <link rel="stylesheet" href="styles/8-places.css">
 	<link rel="icon" href="images/icon1.png" type="image/png">
-</head>
-<body>
-	<header>
-		<div class="logo"></div>
-	</header>
-	<div class="container">
-		<section class="filters">
-			<div class="locations">
-				<h3>States</h3>
-				<h4>California, Arizona...</h4>
-				<ul class="popover">
-					<li>
-						<h2>California</h2>
-						<ul>
-							<li class="city">San Diego</li>
-							<li class="city">Los Angeles</li>
-						</ul>
-					</li>
-				</ul>
-			</div>
-			<div class="amenities">
-				<h3>Amenities</h3>
-				<h4>Pool, Internet, Kitchen</h4>
-				<ul class="popover">
-					<li class="amenity">Pool</li>
-					<li class="amenity">Internet</li>
-					<li class="amenity">Kitchen</li>
-				</ul>
-			</div>
-			<button>Search</button>
-		</section>
-		<section class="places">
-			<h1>Places</h1>
-			<div>
-				<article>
-					<h2>My Home</h2>
-					<div class="price_by_night">$100</div>
-					<div class="information">
-						<div class="people_icon"></div>
-						<div class="max_guest">2 Guests</div>
-						<div class="bed_icon"></div>
-						<div class="number_rooms">1 Bedroom</div>
-						<div class="bathroom_icon"></div>
-						<div class="number_bathrooms">1 Bathroom</div>
-					</div>
-					<div class="user">
-						<b>Owner:</b> Aiko Mi
-					</div>
-					<div class="description">
-						This is a great 1 bedroom/1 bath house in St Tropez.
-					</div>
-				</article>
-				<article>
-					<h2>Tiny House</h2>
-					<div class="price_by_night">$150</div>
-					<div class="information">
-						<div class="people_icon"></div>
-						<div class="max_guest">3 Guests</div>
-						<div class="bed_icon"></div>
-						<div class="number_rooms">1 Bedroom, 1 Loft</div>
-						<div class="bathroom_icon"></div>
-						<div class="number_bathrooms">1 Bathroom</div>
-					</div>
-					<div class="user">
-						<b>Owner:</b> Aiko Mi
-					</div>
-					<div class="description">
-						This is the perfect place for you and your family on vacations. Located in Saint Tropez 20-30 minutes drive.
-					</div>
-				</article>
-				<article>
-					<h2>A Penthouse</h2>
-					<div class="price_by_night">$350</div>
-					<div class="information">
-						<div class="people_icon"></div>
-						<div class="max_guest">6 Guests</div>
-						<div class="bed_icon"></div>
-						<div class="number_rooms">3 Bedrooms</div>
-						<div class="bathroom_icon"></div>
-						<div class="number_bathrooms">3.5 Bathrooms</div>
-					</div>
-					<div class="user">
-						<b>Owner:</b> Aiko Mi
-					</div>
-					<div class="description">
-						This house is perfect for meet with friends. Located in  Saint Tropez.
-	</div>
-				</article>
+
+    </head>
+    <body>
+        <header>
+             
+            <div class="logocontent"></div>
+        </header>
+        <div class="container">
+		
+            <section class="filters">  
+		
+		<div class="locations">
+			<h3>States</h3>
+			<h4>California, Alabama</h4>
+			
+			<ul class="popover">
+				
+				<li>
+					<h2>California</h2>
+					
+					<ul>
+						<li>Los Angeles</li>
+						<li>San francisco</li>
+					</ul>
+				</li >
+				
+				<li>
+					<h2>Alabama</h2>
+					
+					<ul>
+						<li>Birmingham</li>
+						<li>Orange Beach</li>
+					</ul>
+				</li>
+			</ul>
+			
+		</div>
+		
+		<div class="amenities">
+			<h3>Amenities</h3>
+			<h4>Internet, Kitchen</h4>
+			
+			<ul class="popover">
+				<li>Internet</li>
+				<li>Kitchen</li>
+				<li>Pool</li>
+				<li>Room service</li>
+			</ul>
+		</div>
+
+  
+  <button>Search</button>
+
+	    </section>
+	    
+	    
+	    <section class="places">
+		<h1>Places</h1>
+		
+		<div class="placesArticles">
+			
+			<article>
+			
+			<div class="topPlaces">
+				
+				<h2>My home</h2>
+				
+				<div class="price_by_night">
+					<span>$80</span>
 				</div>
-		</section>
-	</div>
-	<footer>
-		Holberton School
-	</footer>
-</body>
+				
+			</div>
+			
+				
+				<div class="information">
+					
+					<div class="max_guest">
+					<span>2 Guest</span>
+					</div>
+					
+					<div class="number_rooms">
+						<span>2 Bedrooms</span>
+					</div>
+					
+					<div class="number_bathrooms">
+						<span>1 Badrooms</span>
+					</div>
+				</div>
+				
+				
+				<div class="user">
+					<span><b>Owner:</b> Aiko Mi</span>
+				</div>
+				
+				
+				<div class="description">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab consequatur obcaecati sequi, nesciunt ipsum corrupti excepturi doloribus impedit laboriosam omnis nisi nemo hic, assumenda quia dolorem possimus est quos.</p>
+				</div>
+				
+			</article>
+			
+			
+			<article>
+				
+				
+				<div class="topPlaces">
+					<h2>Tiny house</h2>
+					
+					<div class="price_by_night">
+						<span>$165</span>
+					</div>
+					
+				</div>
+				
+				
+				<div class="information">
+					
+					<div class="max_guest">
+						<span>2 Guest</span>
+					</div>
+					
+					<div class="number_rooms">
+						<span>2 Bedrooms</span>
+					</div>
+					
+					<div class="number_bathrooms">
+						<span>1 Badrooms</span>
+					</div>
+				</div>
+				
+				
+				<div class="user">
+					<span><b>Owner:</b> Aiko Mi</span>
+				</div>
+				
+				
+				<div class="description">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab consequatur obcaecati sequi, nesciunt ipsum corrupti excepturi doloribus impedit laboriosam omnis nisi nemo hic, assumenda quia dolorem possimus est quos.</p>
+				</div>
+				
+			</article>
+			
+			
+			<article>
+				
+				<div class="topPlaces">
+					
+					<h2>A suite</h2>
+					
+					<div class="price_by_night">
+						<span>$350</span>
+					</div>
+					
+				</div>
+				
+				
+				<div class="information">
+					
+					<div class="max_guest">
+						<span>2 Guest</span>
+					</div>
+					
+					<div class="number_rooms">
+						<span>2 Bedrooms</span>
+					</div>
+					
+					<div class="number_bathrooms">
+						<span>1 Badrooms</span>
+					</div>
+				</div>
+				
+				
+				<div class="user">
+					<span><b>Owner:</b> Aiko Mi</span>
+				</div>
+				
+				
+				<div class="description">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab consequatur obcaecati sequi, nesciunt ipsum corrupti excepturi doloribus impedit laboriosam omnis nisi nemo hic, assumenda quia dolorem possimus est quos.</p>
+				</div>
+				
+			</article>
+			
+		</div>
+		
+	    </section>
+	    
+        </div>
+        
+        
+        <footer>
+            
+            <div>
+                <span>Holberton School</span>
+            </div>
+            
+        </footer>
+        
+    </body>
+    
 </html>
