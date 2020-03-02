@@ -39,7 +39,7 @@ article h2 {
 .people_icon{
 	height: inherit;
 	width: inherit;
-	background: url(https://github.com/elisa2105/AirBnB_clone/blob/master/web_static/images/icon_group.png)
+	background: url(https://github.com/elisa2105/AirBnB_clone/blob/master/web_static/images/icon_group.png);
 	background-repeat: no-repeat;
 	margin-left: 35px;
 }
@@ -47,7 +47,7 @@ article h2 {
 .bed_icon{
 	height: inherit;
 	width: inherit;
-	background: url(https://github.com/elisa2105/AirBnB_clone/blob/master/web_static/images/icon_bed.png)
+	background: url(https://github.com/elisa2105/AirBnB_clone/blob/master/web_static/images/icon_bed.png);
 	background-repeat: no-repeat;
 	margin-left: 35px;
 }
