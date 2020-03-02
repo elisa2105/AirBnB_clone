@@ -1,27 +1,27 @@
 .places {
-	padding-left: 20px;
-	padding-top: 20px;
+	width: 100%;
 }
-
-.places > h1 {
+section.places h1 {
 	font-size: 30px;
+	margin-left: 15px;
 }
-
-.places > div {
+.placesArticles{
 	display: flex;
-	flex-wrap: wrap;
+	flex-flow: row wrap;
+	flex-direction: row;
+	align-content: space-between;
 	justify-content: center;
-}
+	margin-bottom: 40px;
 
-article {
+}
+.placesArticles article {
 	width: 390px;
-	padding: 20px;
 	margin: 20px;
-	border: solid 1px #FF5A5F;
+	padding: 20px;
+	border: 1px solid #FF5A5F;
 	border-radius: 4px;
 }
-
-article h2 {
+.placesArticles h2 {
 	font-size: 30px;
 	text-align: center;
 }
